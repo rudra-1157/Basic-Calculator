@@ -1,0 +1,32 @@
+body {
+    background-image: url(background_clock.webp);
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#clock-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6.5rem;
+    color: #fff;
+
+}
+
+#title {
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
